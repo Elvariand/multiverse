@@ -32,7 +32,7 @@ namespace TrainingGit
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World Master!");
+                    await context.Response.WriteAsync("Hello World B as Brachotte !");
                 });
             });
         }
